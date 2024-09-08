@@ -21,6 +21,7 @@
     <Copyright></Copyright>
     <RepositoryType>git</RepositoryType>
     <RootNamespace>Flex</RootNamespace>
+    <IsPackable>true</IsPackable>
   </PropertyGroup>
 
   <PropertyGroup>
