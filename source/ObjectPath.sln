@@ -3,9 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.0.31903.59
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ObjectPath", "ObjectPath\ObjectPath.csproj", "{1C5C0248-71A1-468E-9600-2DA9E92C5FAC}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Iciclecreek.ObjectPath", "Iciclecreek.ObjectPath\Iciclecreek.ObjectPath.csproj", "{1C5C0248-71A1-468E-9600-2DA9E92C5FAC}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ObjectPath.Tests", "ObjectPath.Tests\ObjectPath.Tests.csproj", "{3430C244-0BF5-4D68-8B4F-D8096203FFC7}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Iciclecreek.ObjectPath.Tests", "Iciclecreek.ObjectPath.Tests\Iciclecreek.ObjectPath.Tests.csproj", "{3430C244-0BF5-4D68-8B4F-D8096203FFC7}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{C991EACB-77AE-4A40-B5DB-D9E510720604}"
 	ProjectSection(SolutionItems) = preProject

@@ -1,8 +1,7 @@
 using Newtonsoft.Json;
 using Newtonsoft.Json.Linq;
-using ObjectUtils;
 
-namespace ObjectPathTests
+namespace Iciclecreek.Tests
 {
 #pragma warning disable SA1402
 
