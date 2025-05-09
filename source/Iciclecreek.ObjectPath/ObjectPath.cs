@@ -4,6 +4,7 @@ using Newtonsoft.Json.Serialization;
 using System;
 using System.Collections;
 using System.Collections.Generic;
+using System.Linq;
 using System.Reflection;
 
 namespace Iciclecreek
@@ -801,14 +802,14 @@ namespace Iciclecreek
                                 case "DateTimeOffset":
                                     value = new DateTimeOffset(Convert.ToDateTime(value.ToString()));
                                     break;
-                                case "DateOnly":
-                                    if (value is DateTime dt)
-                                        value = DateOnly.FromDateTime(dt);
-                                    else if (value is DateTimeOffset dto)
-                                        value = DateOnly.FromDateTime(dto.DateTime);
-                                    else
-                                        value = DateOnly.Parse(value?.ToString()!);
-                                    break;
+                                //case "DateOnly":
+                                //    if (value is DateTime dt)
+                                //        value = DateOnly.FromDateTime(dt);
+                                //    else if (value is DateTimeOffset dto)
+                                //        value = DateOnly.FromDateTime(dto.DateTime);
+                                //    else
+                                //        value = DateOnly.Parse(value?.ToString()!);
+                                //    break;
                                 case "TimeSpan":
                                     if (value is DateTime dt2)
                                         value = dt2.TimeOfDay;
@@ -817,14 +818,14 @@ namespace Iciclecreek
                                     else
                                         value = TimeSpan.Parse(value?.ToString()!);
                                     break;
-                                case "TimeOnly":
-                                    if (value is DateTime dt3)
-                                        value = TimeOnly.FromDateTime(dt3);
-                                    else if (value is DateTimeOffset dto)
-                                        value = TimeOnly.FromDateTime(dto.DateTime);
-                                    else
-                                        value = TimeOnly.Parse(value?.ToString()!);
-                                    break;
+                                //case "TimeOnly":
+                                //    if (value is DateTime dt3)
+                                //        value = TimeOnly.FromDateTime(dt3);
+                                //    else if (value is DateTimeOffset dto)
+                                //        value = TimeOnly.FromDateTime(dto.DateTime);
+                                //    else
+                                //        value = TimeOnly.Parse(value?.ToString()!);
+                                //    break;
                                 case "String":
                                     value = value?.ToString()!;
                                     break;
